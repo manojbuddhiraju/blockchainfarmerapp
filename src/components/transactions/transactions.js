@@ -1,16 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Dialog from "@mui/material/Dialog";
 import DialogTitle from "@mui/material/DialogTitle";
-import axios from "axios";
 
-function transaction() {
-    return (
+
+function TransactionDetails() {
+
+  return (
+    <>
       <div >
         <Dialog>
             <DialogTitle>Payment To Farmer</DialogTitle>
         </Dialog>
       </div>
-    );
-  }
-  
-  export default transaction;
+    </>
+  );
+}
+
+export default TransactionDetails;

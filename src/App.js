@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <p>I am creating blockchain app</p>
+    <div>
+      <p>This App helps farmers majorly in multiple ways</p>
     </div>
   );
 }
