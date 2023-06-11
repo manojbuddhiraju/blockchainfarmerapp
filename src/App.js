@@ -4,13 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-        <p
-        >
-          Application
-        </p>
-      </header>
+      <p>I am creating blockchain app</p>
     </div>
   );
 }
